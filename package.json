@@ -1,0 +1,18 @@
+{
+  "name": "unifyheart",
+  "version": "0.1.0",
+  "private": true,
+  "description": "UnifyHeart.com — Connecting compassion with action",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "aggregate": "node lib/aggregator.js --once"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "express": "^4.21.2",
+    "rss-parser": "^3.13.0",
+    "web-push": "^3.6.7"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "lang": "fr",
+  "dir": "ltr",
+  "site_name": "UnifyHeart",
+  "tagline": "Transformer la compassion en action",
+  "subtagline": "Un réseau d'alertes associatif au service des droits humains. Quand une voix est étouffée ou qu'une communauté est en crise — vous êtes les premiers à le savoir.",
+  "mission_label": "Notre mission",
+  "mission_short": "Défendre les droits humains par la vigilance en temps réel",
+  "nav": {
+    "home": "Accueil",
+    "stories": "Récits",
+    "causes": "Causes",
+    "alerts": "Alertes",
+    "about": "À propos",
+    "rss": "RSS"
+  },
+  "hero": {
+    "label_live": "EN DIRECT",
+    "label_breaking": "URGENT",
+    "label_featured": "À la une",
+    "cta_subscribe": "Recevoir des alertes",
+    "cta_read": "Lire le récit",
+    "cta_donate": "Soutenir la cause"
+  },
+  "ticker": { "title": "Alertes en direct" },
+  "why": {
+    "title": "Pourquoi UnifyHeart existe",
+    "intro": "Nous ne sommes pas un média. Nous sommes des bénévoles. Nous surveillons les fils pour que les récits sur les droits humains ne soient pas étouffés.",
+    "p1_title": "Nous collectons",
+    "p1_body": "Toutes les 10 minutes, notre réseau interroge les organisations de référence — Human Rights Watch, ONU Droits humains, ReliefWeb, RSF, IFRC et bien d'autres.",
+    "p2_title": "Nous amplifions",
+    "p2_body": "Chaque récit est passé au crible d'une seule question : protège-t-il, défend-il ou donne-t-il la parole à des personnes dont les droits sont menacés ?",
+    "p3_title": "Nous alertons",
+    "p3_body": "Notifications navigateur et mobile, résumé e-mail, RSS, Telegram — tout est gratuit, auto-hébergé, sans API payante ni traqueur tiers."
+  },
+  "sections": {
+    "latest": "Derniers récits du terrain",
+    "by_topic": "Par cause",
+    "featured": "Sélection de la rédaction",
+    "rights": "Droits humains",
+    "humanitarian": "Aide humanitaire",
+    "refugees": "Réfugiés & déplacés",
+    "press": "Liberté de la presse",
+    "women": "Droits des femmes",
+    "children": "Droits des enfants",
+    "health": "Santé & secours",
+    "climate": "Justice climatique",
+    "community": "Héros du quotidien"
+  },
+  "alerts": {
+    "title": "Soyez les premiers à agir",
+    "subtitle": "Chaque minute compte lorsqu'une communauté est en danger. Choisissez vos canaux — gratuits, privés, auto-hébergés. Aucune vente de données. Aucune publicité. Jamais.",
+    "channel_push": "Notifications du navigateur",
+    "channel_push_desc": "Alertes instantanées dans Chrome, Firefox, Edge, Safari — même onglet fermé.",
+    "channel_email": "Résumé par e-mail",
+    "channel_email_desc": "Quotidien ou hebdomadaire. Désinscription en un clic.",
+    "channel_ntfy": "Notifications mobiles (ntfy)",
+    "channel_ntfy_desc": "Installez l'app ntfy gratuite, abonnez-vous — sans compte, sans frais.",
+    "channel_telegram": "Canal Telegram",
+    "channel_telegram_desc": "Suivez @UnifyHeartNews pour chaque alerte.",
+    "channel_rss": "Flux RSS / Atom",
+    "channel_rss_desc": "Pour votre lecteur favori (Feedly, Inoreader, NetNewsWire…).",
+    "enable_push": "Activer les notifications",
+    "push_enabled": "✓ Notifications activées",
+    "push_denied": "Le navigateur a bloqué les notifications. Autorisez-les dans les paramètres.",
+    "email_placeholder": "vous@exemple.com",
+    "email_submit": "S'abonner",
+    "email_thanks": "Presque ! Confirmez via votre boîte mail.",
+    "freq_daily": "Résumé quotidien",
+    "freq_weekly": "Résumé hebdomadaire",
+    "freq_breaking": "Urgent uniquement"
+  },
+  "trust": {
+    "title": "Notre promesse",
+    "items": [
+      { "h": "Sans publicité", "b": "Nous ne vendons pas votre attention. Jamais." },
+      { "h": "Sans traqueur", "b": "Aucun script tiers. Aucune donnée revendue." },
+      { "h": "Sans API payante", "b": "Tout est auto-hébergé sur un serveur financé par des dons." },
+      { "h": "Transparent", "b": "Code, sources et méthode sont publics." }
+    ]
+  },
+  "footer": {
+    "mission": "UnifyHeart est un projet caritatif. Pas de publicité payante. Pas de traqueur tiers. Aucune donnée revendue. Gratuit pour toujours.",
+    "love": "Fait avec le cœur, pour toutes et tous.",
+    "lang_switch": "Langue"
+  },
+  "time": {
+    "just_now": "à l'instant",
+    "minutes_ago": "il y a {n} min",
+    "hours_ago": "il y a {n} h",
+    "days_ago": "il y a {n} j"
+  }
+}

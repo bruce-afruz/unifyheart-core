@@ -1,0 +1,41 @@
+/* Subtle, heartfelt polish on top of Tailwind. */
+:root { color-scheme: light dark; }
+html, body { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif; }
+html { -webkit-text-size-adjust: 100%; }
+body { padding-bottom: env(safe-area-inset-bottom); }
+
+/* Line clamp helpers. */
+.line-clamp-1 { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+.line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* Marquee — duplicate row + animate -50% so the loop is seamless. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee, .animate-slowZoom, .animate-fadeUp, .animate-pulseDot { animation: none !important; }
+}
+
+/* Hero slider fade. */
+.hero-slide { will-change: opacity; }
+
+/* Card press / focus. */
+:focus-visible { outline: 2px solid #ef4444; outline-offset: 3px; border-radius: 6px; }
+
+/* Headline serif: Fraunces does well with optical sizing for big headlines. */
+.font-serif { font-feature-settings: "ss01" on, "ss02" on; font-optical-sizing: auto; letter-spacing: -0.012em; }
+
+/* Smoother body rendering. */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* Make selected text feel branded. */
+::selection { background: rgba(220, 38, 38, .22); color: inherit; }
+
+/* Mobile: leave room for the sticky CTA bubble so it doesn't cover content. */
+@media (max-width: 1023px) {
+  main, footer { padding-bottom: 72px; }
+}
+
+/* Ticker: pause on touch for mobile readability. */
+.animate-marquee:active { animation-play-state: paused; }
+
+/* Smooth image entry so layout doesn't jolt. */
+img { color: transparent; }

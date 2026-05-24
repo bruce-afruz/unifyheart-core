@@ -1,0 +1,93 @@
+{
+  "lang": "tr",
+  "dir": "ltr",
+  "site_name": "UnifyHeart",
+  "tagline": "Merhameti eyleme dönüştürür",
+  "subtagline": "İnsan hakları için gönüllülerle yürüyen bir uyarı ağı. Bir ses susturulduğunda ya da bir topluluk kriz içinde olduğunda — ilk haber alan sen ol.",
+  "mission_label": "Misyonumuz",
+  "mission_short": "Anlık farkındalıkla insan haklarını savunmak",
+  "nav": {
+    "home": "Anasayfa",
+    "stories": "Haberler",
+    "causes": "Konular",
+    "alerts": "Bildirim Al",
+    "about": "Hakkında",
+    "rss": "RSS"
+  },
+  "hero": {
+    "label_live": "CANLI",
+    "label_breaking": "ACİL",
+    "label_featured": "Öne çıkan",
+    "cta_subscribe": "Ücretsiz bildirim al",
+    "cta_read": "Haberi oku",
+    "cta_donate": "Desteğini göster"
+  },
+  "ticker": { "title": "Canlı uyarılar" },
+  "why": {
+    "title": "UnifyHeart neden var",
+    "intro": "Biz bir medya şirketi değiliz. Gönüllüleriz. İnsan haklarına dair haberlerin sesi bastırılmasın diye telleri izliyoruz.",
+    "p1_title": "Topluyoruz",
+    "p1_body": "Her 10 dakikada bir, güvenilir insan hakları kuruluşlarından bilgi çekiyoruz — Human Rights Watch, BM İnsan Hakları, ReliefWeb, Sınır Tanımayan Gazeteciler, IFRC ve daha fazlası.",
+    "p2_title": "Sesini güçlendiriyoruz",
+    "p2_body": "Her haber tek bir soruyla süzülür: bu, hakları risk altındaki insanları koruyor, savunuyor ya da onlara ses veriyor mu?",
+    "p3_title": "Uyarıyoruz",
+    "p3_body": "Tarayıcı bildirimi, telefon bildirimi, e-posta özeti, RSS, Telegram — hepsi ücretsiz, hepsi kendi sunucumuzda, ücretli API ya da üçüncü taraf takipçi yok."
+  },
+  "sections": {
+    "latest": "Sahadan son haberler",
+    "by_topic": "Konuya göre",
+    "featured": "Editörün seçimi",
+    "rights": "İnsan hakları",
+    "humanitarian": "İnsani yardım",
+    "refugees": "Mülteciler ve yerinden edilenler",
+    "press": "Basın özgürlüğü",
+    "women": "Kadın hakları",
+    "children": "Çocuk hakları",
+    "health": "Sağlık ve yardım",
+    "climate": "İklim adaleti",
+    "community": "Toplum kahramanları"
+  },
+  "alerts": {
+    "title": "İlk harekete geçen sen ol",
+    "subtitle": "Bir topluluk risk altındayken her dakika önemlidir. Sana nasıl ulaşacağımızı seç — her kanal ücretsiz, gizli ve kendi sunucumuzda. Verini asla satmayız. Reklam göstermeyiz. Asla.",
+    "channel_push": "Tarayıcı bildirimi",
+    "channel_push_desc": "Chrome, Firefox, Edge, Safari'de anlık bildirim — sekme kapalıyken bile.",
+    "channel_email": "E-posta özeti",
+    "channel_email_desc": "Günlük veya haftalık özet. Tek tıkla abonelikten çık.",
+    "channel_ntfy": "Telefon bildirimi (ntfy)",
+    "channel_ntfy_desc": "Ücretsiz ntfy uygulamasını yükle, konumuza abone ol — hesap yok, ücret yok.",
+    "channel_telegram": "Telegram kanalı",
+    "channel_telegram_desc": "Her uyarı için @UnifyHeartNews'i takip et.",
+    "channel_rss": "RSS / Atom akışı",
+    "channel_rss_desc": "Favori okuyucun için (Feedly, Inoreader, NetNewsWire…).",
+    "enable_push": "Tarayıcı bildirimini aç",
+    "push_enabled": "✓ Tarayıcı bildirimleri açık",
+    "push_denied": "Tarayıcı bildirimleri engelledi. Tarayıcı ayarlarından izin ver.",
+    "email_placeholder": "ornek@eposta.com",
+    "email_submit": "Abone ol",
+    "email_thanks": "Neredeyse tamam — onaylamak için gelen kutunu kontrol et.",
+    "freq_daily": "Günlük özet",
+    "freq_weekly": "Haftalık özet",
+    "freq_breaking": "Sadece acil"
+  },
+  "trust": {
+    "title": "Sana sözümüz",
+    "items": [
+      { "h": "Reklam yok", "b": "Dikkatini satmayız. Asla." },
+      { "h": "Takipçi yok", "b": "Hiçbir üçüncü taraf script yok. Veri satışı yok." },
+      { "h": "Ücretli API yok", "b": "Her şey tek bir bağış destekli sunucuda." },
+      { "h": "Şeffafız", "b": "Kod, kaynaklar ve yöntem herkese açık." }
+    ]
+  },
+  "footer": {
+    "mission": "UnifyHeart bir gönüllülük projesidir. Ücretli reklam yok. Üçüncü taraf takipçi yok. Veri satışı yok. Sonsuza dek ücretsiz.",
+    "love": "Herkes için, kalpten.",
+    "lang_switch": "Dil"
+  },
+  "time": {
+    "just_now": "az önce",
+    "minutes_ago": "{n} dk önce",
+    "hours_ago": "{n} sa önce",
+    "days_ago": "{n} g önce"
+  }
+}

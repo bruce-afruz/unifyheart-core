@@ -1,0 +1,26 @@
+[Unit]
+Description=UnifyHeart.com — news + alerts
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/unifyheart
+ExecStart=/usr/bin/node /opt/unifyheart/server.js
+Restart=always
+RestartSec=3
+User=www-data
+Group=www-data
+Environment=NODE_ENV=production
+Environment=PORT=3001
+Environment=SITE_URL=https://unifyheart.com
+EnvironmentFile=-/opt/unifyheart/.env
+StandardOutput=append:/var/log/unifyheart.log
+StandardError=append:/var/log/unifyheart.log
+LimitNOFILE=8192
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

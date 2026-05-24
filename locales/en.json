@@ -1,0 +1,93 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "site_name": "UnifyHeart",
+  "tagline": "Connecting compassion with action",
+  "subtagline": "A charity-run alert network for human rights. When a voice is silenced or a community is in crisis — you are the first to know.",
+  "mission_label": "Our mission",
+  "mission_short": "Defend human rights through real-time awareness",
+  "nav": {
+    "home": "Home",
+    "stories": "Stories",
+    "causes": "Causes",
+    "alerts": "Get Alerts",
+    "about": "About",
+    "rss": "RSS"
+  },
+  "hero": {
+    "label_live": "LIVE",
+    "label_breaking": "URGENT",
+    "label_featured": "Featured story",
+    "cta_subscribe": "Get free alerts",
+    "cta_read": "Read story",
+    "cta_donate": "Support the cause"
+  },
+  "ticker": { "title": "Live alerts" },
+  "why": {
+    "title": "Why UnifyHeart exists",
+    "intro": "We are not a news company. We are volunteers. We watch the wires so that human-rights stories cannot be drowned out.",
+    "p1_title": "We gather",
+    "p1_body": "Every 10 minutes our network pulls from trusted human-rights organisations — Human Rights Watch, UN Human Rights, ReliefWeb, Reporters Without Borders, IFRC and more.",
+    "p2_title": "We amplify",
+    "p2_body": "Every story is filtered through one question: does this protect, defend or give voice to people whose rights are at risk?",
+    "p3_title": "We alert",
+    "p3_body": "Browser push, phone push, email digest, RSS, Telegram — all free, all self-hosted, all without paid APIs or third-party trackers."
+  },
+  "sections": {
+    "latest": "Latest from the field",
+    "by_topic": "Explore by cause",
+    "featured": "Editor's pick",
+    "rights": "Human rights",
+    "humanitarian": "Humanitarian aid",
+    "refugees": "Refugees & displaced",
+    "press": "Press freedom",
+    "women": "Women's rights",
+    "children": "Children's rights",
+    "health": "Health & relief",
+    "climate": "Climate justice",
+    "community": "Community heroes"
+  },
+  "alerts": {
+    "title": "Be the first to act",
+    "subtitle": "Every minute matters when a community is at risk. Choose how we reach you — every channel is free, private, and self-hosted. We never sell your data. We never run ads. Ever.",
+    "channel_push": "Browser push",
+    "channel_push_desc": "Instant alerts in Chrome, Firefox, Edge, Safari — even when the tab is closed.",
+    "channel_email": "Email digest",
+    "channel_email_desc": "Daily or weekly summary in your inbox. One-click unsubscribe.",
+    "channel_ntfy": "Phone push (ntfy)",
+    "channel_ntfy_desc": "Install the free ntfy app, subscribe to our topic — no account, no fees.",
+    "channel_telegram": "Telegram channel",
+    "channel_telegram_desc": "Follow @UnifyHeartNews for every alert.",
+    "channel_rss": "RSS / Atom feed",
+    "channel_rss_desc": "For your favourite reader (Feedly, Inoreader, NetNewsWire…).",
+    "enable_push": "Enable browser alerts",
+    "push_enabled": "✓ Browser alerts are on",
+    "push_denied": "Browser blocked alerts. Allow them in your browser settings.",
+    "email_placeholder": "you@example.com",
+    "email_submit": "Subscribe",
+    "email_thanks": "Almost there — check your inbox to confirm.",
+    "freq_daily": "Daily digest",
+    "freq_weekly": "Weekly digest",
+    "freq_breaking": "Urgent only"
+  },
+  "trust": {
+    "title": "A promise to you",
+    "items": [
+      { "h": "No paid ads", "b": "We do not sell attention. We never will." },
+      { "h": "No trackers", "b": "Zero third-party scripts. Zero analytics resold." },
+      { "h": "No paid APIs", "b": "Everything self-hosted on a single charity-funded server." },
+      { "h": "Open by design", "b": "Code, sources and methodology are public." }
+    ]
+  },
+  "footer": {
+    "mission": "UnifyHeart is a charity project. No paid advertising. No third-party trackers. No data sold. Forever free.",
+    "love": "Made with heart, for everyone.",
+    "lang_switch": "Language"
+  },
+  "time": {
+    "just_now": "just now",
+    "minutes_ago": "{n} min ago",
+    "hours_ago": "{n} h ago",
+    "days_ago": "{n} d ago"
+  }
+}

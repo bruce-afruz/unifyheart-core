@@ -268,6 +268,12 @@ app.get('/:lang(en|tr|fr)/article/:id', (req, res) => {
   res.send(articlePage({ lang: article.lang, vapidPublic: VAPID_PUBLIC, article, related }));
 });
 
+app.get('/privacy', (req, res) => res.redirect(302, `/${detectLocale(req)}/privacy`));
+app.get('/:lang(en|tr|fr)/privacy', (req, res) => {
+  const { privacyPage } = require('./lib/render');
+  res.send(privacyPage({ lang: req.params.lang, vapidPublic: VAPID_PUBLIC }));
+});
+
 app.get('/:lang(en|tr|fr)/donate', (req, res) => {
   const { donatePage } = require('./lib/render');
   const lang = req.params.lang;
